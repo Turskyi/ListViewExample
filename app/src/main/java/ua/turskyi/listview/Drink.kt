@@ -6,11 +6,6 @@ private constructor(
     val description: String,
     val imageResourceId: Int
 ) {
-
-    override fun toString(): String {
-        return name
-    }
-
     companion object {
         //drinks is an array of Drinks
         val drinks = arrayOf(
@@ -23,5 +18,5 @@ private constructor(
             Drink("Filter", "Highest quality beans roasted and brewed fresh", R.drawable.filter)
         )
     }
-
+    override fun toString()= name
 }

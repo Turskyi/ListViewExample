@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.activity_top_level.*
 
 /**
  * @Description
- * The app shows a list of options, by clicking on first user get a second screen with
+ * The app shows a list of options, by clicking on first one, user get a second screen with
  * list of coffees, by clicking on one of them user get a screen with description of a
  * particular coffee.
  */
