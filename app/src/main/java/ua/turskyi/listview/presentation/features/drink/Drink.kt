@@ -1,6 +1,9 @@
-package ua.turskyi.listview
+package ua.turskyi.listview.presentation.features.drink
 
-class Drink //Each Drink has a name, description, and an image resource
+import ua.turskyi.listview.R
+
+/* Each Drink has a name, description, and an image resource */
+class Drink
 private constructor(
     val name: String,
     val description: String,
@@ -18,5 +21,6 @@ private constructor(
             Drink("Filter", "Highest quality beans roasted and brewed fresh", R.drawable.filter)
         )
     }
-    override fun toString()= name
+
+    override fun toString() = name
 }

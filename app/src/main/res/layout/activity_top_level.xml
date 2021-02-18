@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".TopLevelActivity">
+    tools:context=".presentation.features.home.TopLevelActivity">
 
     <ImageView
         android:layout_width="200dp"
@@ -17,4 +17,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:entries="@array/options" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/favorites"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/list_favorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

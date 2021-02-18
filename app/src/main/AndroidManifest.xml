@@ -10,15 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TopLevelActivity">
+        <activity android:name=".presentation.features.home.TopLevelActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DrinkCategoryActivity" />
-        <activity android:name=".DrinkActivity"/>
+        <activity android:name=".presentation.features.category.DrinkCategoryActivity" />
+        <activity android:name=".presentation.features.drink.DrinkActivity"/>
     </application>
 
 </manifest>
